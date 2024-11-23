@@ -1,21 +1,19 @@
-/* Change color of the h1 and ul elements */
 h1 {
-    color: #08ce4d; /* Green */
+    color: #08ce4d;
     font-family: 'Trebuchet MS', sans-serif;
 }
 
 h2 {
-    color: #12843a; /* Green */
+    color: #12843a;
     font-family: 'Trebuchet MS', sans-serif;
 }
 
 ul {
-    color: #0773ad; /* Orange */
+    color: #0773ad;
     font-family: Arial, sans-serif;
     font-size: 18px;
 }
 
-/* Change font properties of the p and ol elements */
 p {
     font-family: 'Georgia', serif;
     font-size: 16px;
@@ -30,15 +28,20 @@ ol {
     margin: 20px;
 }
 
-/* Additional customization: Background color and image styles */
 body {
-    background-color: #eaddab; /* Light Blue */
+    background-color: #eaddab;
     margin: 20px;
     font-family: Arial, sans-serif;
 }
 
 img {
-    border: 2px solid #000; /* Black border around images */
+    border: 2px solid #000;
     border-radius: 0px;
     margin: 10px;
+}
+
+.image-container {
+    display: flex;
+    gap: 0px;
+    align-items: baseline;
 }
