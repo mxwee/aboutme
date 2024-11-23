@@ -42,6 +42,7 @@ img {
 
 .image-container {
     display: flex;
-    gap: 0px;
+    gap: 2px;
     align-items: baseline;
 }
+
