@@ -41,8 +41,13 @@ img {
 }
 
 .image-container {
-    display: flex;
-    gap: 2px;
-    align-items: baseline;
+    display: flex; /* Arrange items in a row */
+    gap: 20px; /* Add space between the elements */
+    align-items: center; /* Align items vertically in the center */
+}
+
+.image-container p, 
+.image-container img {
+    margin: 0; /* Remove default margins */
 }
 
